@@ -19,7 +19,7 @@ Most of the interesting stuff is stored in notebooks. The filenames are pretty s
 That should be enough to do everything locally, but if you want to skip training the gan (~100 cpu hours), you can download the checkpoint files from [this directory on dropbox](https://www.dropbox.com/sh/izks7nrxqozx2i1/AABDljzyE1Y3W2c9r1_Vtv1Ya?dl=0). Note: I make no guarantee about these files being available after March 2018; after that point you should just train the gan yourself using `simple gan.ipynb`.
 
 # Results
-I have a [written presentation](https://docs.google.com/document/d/1b_hhbJe1BeYTPs-bdPF380XTENkypS9nfCQ3_uJaBXo/edit?usp=sharing), and a [presentation slides](https://docs.google.com/presentation/d/1xjLsMAiMoyPivnso6r9iNnvczVzGpb6Xe3NvX4osrRk/edit?usp=sharing) overviewing my results.
+ have a [written presentation](https://docs.google.com/document/d/1b_hhbJe1BeYTPs-bdPF380XTENkypS9nfCQ3_uJaBXo/edit?usp=sharing), and a [presentation slides](https://docs.google.com/presentation/d/1xjLsMAiMoyPivnso6r9iNnvczVzGpb6Xe3NvX4osrRk/edit?usp=sharing) overviewing my results.
 
 In short, we were able to create relatively good galaxy images with realistic-looking noise (see the image at the top of this README). Unfortunately, the galaxy images didn't always scale in intuitive / accurate ways with respect to the input variable they were being conditioned on. For instance, if you added more stars to a galaxy (specifically increasing stellar mass), it would sometimes get fainter, which is not what we wanted. We have some ideas of how to try to address this by further tweaking the loss function, but haven't gotten a chance to explore those options yet.
 
