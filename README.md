@@ -1,5 +1,5 @@
-# GalaxyCGAN
-A Generative Adversarial Network that generates images of galaxies for an input redshift and stellar mass
+# Galaxy GAN: GANs for Data Augmentation
+A Generative Adversarial Network (GAN) that generates images of galaxies for an input redshift and stellar mass.
 
 ![example GAN results](https://raw.githubusercontent.com/egentry/galaxyCGAN/master/images/gan_example_for_readme.png)
 
